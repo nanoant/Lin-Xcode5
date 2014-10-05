@@ -11,6 +11,11 @@
 // Views
 #import "LNPopoverWindow.h"
 
+@interface LNPopoverWindowController (){
+    NSViewController *_contentViewController;
+}
+@end
+
 NSString * const LNPopoverWindowControllerWindowWillCloseNotification = @"LNPopoverWindowControllerWindowWillCloseNotification";
 
 @implementation LNPopoverWindowController
