@@ -6,11 +6,8 @@ It lets you search/manage localizations without opening the .strings files.
 
 ![01.png](http://questbe.at/lin/img/screenshots/01.png)
 
-Lin for Xcode 5
-[questbeat/Lin](https://github.com/questbeat/Lin)
+Lin for Xcode 4/5 [questbeat/Lin](https://github.com/questbeat/Lin)
 
-Lin for Xcode 4 (previous version)  
-[questbeat/Lin](https://github.com/questbeat/Lin)
 
 
 
