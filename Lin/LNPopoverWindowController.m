@@ -40,16 +40,16 @@ NSString * const LNPopoverWindowControllerWindowWillCloseNotification = @"LNPopo
 - (void)setContentViewController:(NSViewController *)contentViewController
 {
     // Remove previous content view
-    if (self.contentViewController) {
-        [self.contentViewController.view removeFromSuperview];
+    if (_contentViewController) {
+        [_contentViewController.view removeFromSuperview];
     }
     
     _contentViewController = contentViewController;
     
     // Set content view of the window
-    self.contentViewController.view.autoresizingMask = NSViewWidthSizable | NSViewHeightSizable;
-    [self.window.contentView setFrame:self.contentViewController.view.bounds];
-    [self.window.contentView addSubview:self.contentViewController.view];
+    _contentViewController.view.autoresizingMask = NSViewWidthSizable | NSViewHeightSizable;
+    [self.window.contentView setFrame:_contentViewController.view.bounds];
+    [self.window.contentView addSubview:_contentViewController.view];
 }
 
 
